@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Qro</title>
+<meta name="description" content="Политика конфиденциальности приложения «Qro — генератор QR-кодов» (com.dolgitem.qrcodeapp). Privacy Policy for the Qro QR code generator.">
+<style>
+  :root {
+    --bg: #f3f4f6; --fg: #0f172a; --muted: #64748b; --rule: #dfe3e8;
+    --accent: #2f6feb; --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e1014; --fg: #e8eaee; --muted: #949aa6; --rule: #262b35;
+            --accent: #7aa7f2; --card: #141821; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 5rem; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.65rem; line-height: 1.25; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; letter-spacing: -.005em; }
+  h3 { font-size: 1rem; margin: 1.6rem 0 .4rem; }
+  p, li { color: var(--fg); }
+  .lede { color: var(--muted); margin: 0 0 1.5rem; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  ul { padding-left: 1.15rem; }
+  li { margin: .3rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .93rem; }
+  th, td { text-align: left; vertical-align: top; padding: .55rem .6rem; border-bottom: 1px solid var(--rule); }
+  th { color: var(--muted); font-weight: 600; }
+  .meta { background: var(--card); border-radius: 10px; padding: .9rem 1.1rem; margin: 1.5rem 0; font-size: .93rem; }
+  .meta div { margin: .2rem 0; }
+  .switch { font-size: .93rem; color: var(--muted); margin-bottom: 2rem; }
+  code { background: var(--card); padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Политика конфиденциальности</h1>
+<p class="lede">Приложение «Qro — генератор QR-кодов» (<code>com.dolgitem.qrcodeapp</code>)</p>
+<p class="switch"><a href="#en">Read this page in English ↓</a></p>
+
+<div class="meta">
+  <div><strong>Дата вступления в силу:</strong> 18 сентября 2026 года</div>
+  <div><strong>Связь с разработчиком:</strong> <a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a></div>
+</div>
+
+<p>Настоящая Политика конфиденциальности описывает, как приложение «Qro» (далее —
+«Приложение») обрабатывает информацию. Используя Приложение, вы соглашаетесь с условиями,
+изложенными ниже.</p>
+
+<h2>Коротко</h2>
+<p>Самое главное: <strong>то, что вы вводите для создания QR-кода, никуда не отправляется</strong>.
+Ссылка, текст, имя сети Wi-Fi, пароль от неё, телефон и почта с визитки — всё это
+обрабатывается прямо на вашем устройстве. Код рисуется на телефоне, у Приложения нет ни
+сервера, ни учётных записей, ни регистрации.</p>
+<p>При этом в Приложение встроены сторонние сервисы — реклама и аналитика, — которые
+собирают технические данные об устройстве и о том, как Приложением пользуются. Ниже
+подробно, какие именно и зачем.</p>
+
+<h2>Какие данные мы собираем сами</h2>
+<p><strong>Никаких.</strong> Содержимое полей ввода не покидает устройство и никуда не
+записывается: закрыли Приложение — данные исчезли. История созданных кодов не ведётся.</p>
+<p>Локально в хранилище Приложения сохраняются только две служебные величины, связанные
+с экспортом в SVG:</p>
+<ul>
+  <li><code>svgExportCount</code> — сколько раз вы сохраняли код в SVG;</li>
+  <li><code>svgUnlockedUntil</code> — до какого момента действует разблокировка,
+      полученная за просмотр рекламного ролика.</li>
+</ul>
+<p>Это числа, по ним нельзя узнать ни кто вы, ни какие коды вы делали. При удалении
+Приложения они удаляются вместе с ним.</p>
+
+<h2>Какие данные собирают сторонние сервисы</h2>
+<p>В Приложение встроены два сервиса компании «Яндекс»:</p>
+
+<h3>Рекламная сеть Яндекса (показ рекламы)</h3>
+<p>Реклама в Qro бывает двух видов. Баннер в верхней части экрана показывается во время
+работы с Приложением. Рекламный ролик с вознаграждением показывается только по вашему
+желанию: вы сами решаете посмотреть его, чтобы открыть экспорт в SVG. Экспорт в PNG
+ничем не ограничен, роликов для него смотреть не нужно.</p>
+
+<h3>AppMetrica (аналитика и отчёты о сбоях)</h3>
+<p>Помогает понять, какими функциями пользуются, а какими нет, и увидеть падения
+приложения, чтобы их исправить.</p>
+
+<table>
+  <tr><th>Категория данных</th><th>Что именно</th><th>Зачем</th></tr>
+  <tr>
+    <td>Идентификаторы</td>
+    <td>Рекламный идентификатор устройства (Google Advertising ID), идентификатор установки,
+        источник установки (магазин приложений)</td>
+    <td>Показ и учёт рекламы, отличить одну установку от другой в статистике</td>
+  </tr>
+  <tr>
+    <td>Данные об устройстве</td>
+    <td>Модель устройства, версия ОС, язык, разрешение экрана, версия приложения,
+        тип подключения</td>
+    <td>Совместимость, подбор формата рекламы, разбор сбоев</td>
+  </tr>
+  <tr>
+    <td>Примерное местоположение</td>
+    <td>Регион и город, определяемые по IP-адресу. Доступ к геолокации устройства
+        Приложение не запрашивает и не получает</td>
+    <td>Региональный подбор рекламы, статистика по странам</td>
+  </tr>
+  <tr>
+    <td>Действия в приложении</td>
+    <td>Обезличенные события: запуск приложения, переключение между вкладками
+        («Текст», «Wi-Fi», «Визитка»), факт создания кода, нажатия на кнопки сохранения
+        PNG и SVG, успешное сохранение, показ диалога про рекламу, начало и завершение
+        просмотра ролика</td>
+    <td>Понять, что в приложении работает, а что нет</td>
+  </tr>
+  <tr>
+    <td>Отчёты об ошибках</td>
+    <td>Стек вызовов и состояние приложения в момент падения</td>
+    <td>Исправление ошибок</td>
+  </tr>
+</table>
+
+<p><strong>Чего в этих событиях нет.</strong> Вместе с фактом создания кода в аналитику
+уходят только его тип (<code>url</code>, <code>wifi</code>, <code>email</code>,
+<code>phone</code>, <code>text</code> и подобные) и длина строки в символах. Сама строка —
+адрес сайта, пароль от Wi-Fi, номер телефона, имя и почта с визитки — в аналитику
+не передаётся никогда.</p>
+
+<p>Собранные данные обрабатываются на стороне «Яндекса» в соответствии с его документами:
+<a href="https://yandex.ru/legal/confidential/" rel="noopener">Политика конфиденциальности Яндекса</a>,
+<a href="https://yandex.ru/legal/metrica_termsofuse/" rel="noopener">Условия использования Яндекс Метрики и AppMetrica</a>.
+Разработчик получает из AppMetrica только сводные, обезличенные отчёты и не может по ним
+установить конкретного человека.</p>
+
+<h2>Цели обработки данных</h2>
+<ul>
+  <li>Работа самого Приложения — создание QR-кода и сохранение его в файл на устройстве.</li>
+  <li>Показ рекламы и поддержание бесплатной модели распространения Приложения.</li>
+  <li>Понимание того, как Приложением пользуются, чтобы его улучшать.</li>
+  <li>Обнаружение и исправление сбоев.</li>
+</ul>
+
+<h2>Разрешения устройства</h2>
+<p>Приложение запрашивает единственное разрешение — <strong>доступ в интернет</strong>,
+и нужно оно только для загрузки рекламы и отправки обезличенной статистики. Сам QR-код
+создаётся без интернета: в режиме полёта Приложение работает, просто без рекламы.</p>
+<p>Разрешений на камеру, контакты, звонки, СМС, календарь, микрофон, фотографии, файлы
+и геолокацию в Приложении нет — оно физически не может к ним обратиться. Готовый код
+сохраняется через системный диалог «Поделиться», то есть файл кладёте вы сами и туда,
+куда выберете.</p>
+
+<h2>Чего в приложении нет</h2>
+<ul>
+  <li>Учётных записей, регистрации и входа через социальные сети.</li>
+  <li>Покупок внутри приложения и приёма платёжных данных.</li>
+  <li>Сканирования кодов — камера не используется.</li>
+  <li>Истории созданных кодов и облачной синхронизации.</li>
+  <li>Продажи данных третьим лицам. Мы не продаём и не передаём данные никому, кроме
+      названных выше сервисов, работающих по нашему поручению.</li>
+</ul>
+
+<h2>Дети</h2>
+<p>Приложение имеет возрастную маркировку <strong>0+</strong>: собственного контента,
+неподходящего детям, в нём нет. Мы сознательно не собираем данные детей и не адресуем
+Приложение детям младше 13 лет. Обратите внимание, что рекламные объявления подбирает
+рекламная сеть, а не разработчик. Если вы считаете, что данные ребёнка могли попасть
+в аналитику, напишите нам — мы обратимся к сервисам за удалением.</p>
+
+<h2>Как ограничить сбор данных</h2>
+<ul>
+  <li><strong>Android:</strong> «Настройки» → «Google» → «Реклама» — там можно сбросить
+      рекламный идентификатор или полностью его удалить. После удаления реклама
+      перестанет подбираться по интересам.</li>
+  <li><strong>Не смотреть рекламные ролики.</strong> Они добровольные: сохранение в PNG
+      доступно без них и ничем не ограничено.</li>
+  <li><strong>Отключить интернет.</strong> Без сети QR-код всё равно создаётся
+      и сохраняется, а реклама и статистика не грузятся.</li>
+  <li><strong>Удалить приложение.</strong> Локальные данные исчезнут вместе с ним,
+      а новые данные в аналитику поступать перестанут.</li>
+</ul>
+
+<h2>Безопасность</h2>
+<p>Содержимое, которое вы вводите, не покидает ваше устройство, поэтому его сохранность
+обеспечивается средствами защиты самого устройства. Рекомендуем использовать блокировку
+экрана и актуальную версию операционной системы. Данные, которые сторонние сервисы
+передают на свои серверы, идут по защищённому соединению (HTTPS).</p>
+<p>Отдельно про Wi-Fi и визитки: пароль и контактные данные, которые вы вписываете,
+превращаются в QR-код прямо на устройстве. Но помните, что сам готовый код — это и есть
+ваш пароль в открытом виде: тот, кто наведёт на него камеру, получит доступ к сети.
+Распечатанный код стоит размещать так же осмотрительно, как записку с паролем.</p>
+
+<h2>Хранение и ваши права</h2>
+<p>Сроки хранения данных на стороне «Яндекса» определяются его политикой. Вы можете
+запросить сведения о данных, связанных с вашей установкой, а также их удаление —
+напишите на <a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a>. Поскольку учётных
+записей в Приложении нет, для поиска записей потребуется идентификатор установки;
+мы подскажем, где его взять. Ответим в течение 30 дней.</p>
+
+<h2>Изменения политики</h2>
+<p>При изменении состава собираемых данных мы обновим эту страницу и дату вступления
+в силу наверху. Существенные изменения будут отражены в описании обновления в магазине
+приложений.</p>
+
+<hr>
+
+<h1 id="en">Privacy Policy</h1>
+<p class="lede">Qro QR code generator (<code>com.dolgitem.qrcodeapp</code>)</p>
+
+<div class="meta">
+  <div><strong>Effective date:</strong> 18 September 2026</div>
+  <div><strong>Developer contact:</strong> <a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a></div>
+</div>
+
+<p>This Privacy Policy describes how the Qro app (the "App") handles information.
+By using the App, you agree to the terms set out below.</p>
+
+<h2>In short</h2>
+<p>The most important part: <strong>whatever you type to create a QR code is never sent
+anywhere</strong>. Links, text, a Wi-Fi network name and its password, a phone number and
+email from a business card — all of it is processed on your device. The code is rendered
+on the phone; the App has no server, no accounts and no sign-up.</p>
+<p>The App does embed third-party advertising and analytics services, which collect
+technical data about your device and how the App is used. Details below.</p>
+
+<h2>Data we collect ourselves</h2>
+<p><strong>None.</strong> The contents of the input fields never leave the device and are
+not written down anywhere: close the App and they are gone. No history of generated codes
+is kept.</p>
+<p>Only two technical values are stored locally, both related to SVG export:</p>
+<ul>
+  <li><code>svgExportCount</code> — how many times you have saved a code as SVG;</li>
+  <li><code>svgUnlockedUntil</code> — when the unlock earned by watching a rewarded video
+      expires.</li>
+</ul>
+<p>These are numbers; they reveal neither who you are nor what codes you made. Uninstalling
+the App deletes them.</p>
+
+<h2>Data collected by third-party services</h2>
+<p>The App embeds two Yandex services:</p>
+
+<h3>Yandex Advertising Network (ads)</h3>
+<p>There are two kinds of ads in Qro. A banner at the top of the screen is shown while you
+use the App. A rewarded video is opt-in only: you choose to watch it to unlock SVG export.
+PNG export is unrestricted and requires no video.</p>
+
+<h3>AppMetrica (analytics and crash reporting)</h3>
+<p>Helps us see which features are used and which are not, and catch crashes so they can
+be fixed.</p>
+
+<table>
+  <tr><th>Data category</th><th>What exactly</th><th>Purpose</th></tr>
+  <tr>
+    <td>Identifiers</td>
+    <td>Device advertising ID (Google Advertising ID), install identifier, install source
+        (app store)</td>
+    <td>Serving and measuring ads; distinguishing installs in statistics</td>
+  </tr>
+  <tr>
+    <td>Device information</td>
+    <td>Device model, OS version, language, screen resolution, app version, connection type</td>
+    <td>Compatibility, ad format selection, crash triage</td>
+  </tr>
+  <tr>
+    <td>Approximate location</td>
+    <td>Region and city derived from IP address. The App never requests or receives device
+        location</td>
+    <td>Regional ad selection, country-level statistics</td>
+  </tr>
+  <tr>
+    <td>App activity</td>
+    <td>Anonymous events: app launch, switching between tabs (Text, Wi-Fi, Business card),
+        the fact that a code was generated, taps on the PNG and SVG save buttons, successful
+        saves, the ad dialog being shown, rewarded video started and finished</td>
+    <td>Understanding what works in the app</td>
+  </tr>
+  <tr>
+    <td>Crash logs</td>
+    <td>Stack trace and app state at the moment of a crash</td>
+    <td>Fixing bugs</td>
+  </tr>
+</table>
+
+<p><strong>What these events do not contain.</strong> Along with the fact that a code was
+generated, analytics receives only its type (<code>url</code>, <code>wifi</code>,
+<code>email</code>, <code>phone</code>, <code>text</code> and the like) and the length of
+the string in characters. The string itself — the website address, the Wi-Fi password, the
+phone number, the name and email from a business card — is never transmitted.</p>
+
+<p>The collected data is processed by Yandex under its own terms:
+<a href="https://yandex.com/legal/confidential/" rel="noopener">Yandex Privacy Policy</a>,
+<a href="https://yandex.com/legal/metrica_termsofuse/en/" rel="noopener">Terms of Use of Yandex Metrica and AppMetrica</a>.
+The developer receives only aggregated, anonymised reports and cannot identify an individual
+from them.</p>
+
+<h2>Purposes of processing</h2>
+<ul>
+  <li>Running the App itself — generating a QR code and saving it to a file on the device.</li>
+  <li>Serving ads and keeping the App free to download.</li>
+  <li>Understanding how the App is used, in order to improve it.</li>
+  <li>Detecting and fixing crashes.</li>
+</ul>
+
+<h2>Device permissions</h2>
+<p>The App requests a single permission — <strong>internet access</strong> — and only to
+load ads and send anonymous statistics. The QR code itself is generated offline: in airplane
+mode the App works, just without ads.</p>
+<p>There are no permissions for camera, contacts, calls, SMS, calendar, microphone, photos,
+files or location — the App simply cannot reach them. The finished code is saved through the
+system share dialog, so you decide where the file goes.</p>
+
+<h2>What the app does not do</h2>
+<ul>
+  <li>No accounts, registration or social sign-in.</li>
+  <li>No in-app purchases and no payment data.</li>
+  <li>No code scanning — the camera is not used.</li>
+  <li>No history of generated codes and no cloud sync.</li>
+  <li>No sale of data. We do not sell or share data with anyone other than the services
+      listed above, which act on our behalf.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The App is rated <strong>0+</strong>: it contains no content of its own that is unsuitable
+for children. We do not knowingly collect data from children and the App is not directed at
+children under 13. Note that advertisements are selected by the ad network, not by the
+developer. If you believe a child's data may have reached analytics, contact us and we will
+request its deletion from the services.</p>
+
+<h2>How to limit data collection</h2>
+<ul>
+  <li><strong>Android:</strong> Settings → Google → Ads, where you can reset or delete your
+      advertising ID. Once deleted, ads are no longer selected by interest.</li>
+  <li><strong>Skip the rewarded videos.</strong> They are optional: PNG export works without
+      them and is unrestricted.</li>
+  <li><strong>Turn off the internet.</strong> Codes are still generated and saved offline,
+      while ads and statistics are not loaded.</li>
+  <li><strong>Uninstall the app.</strong> Local data is removed with it and no further data
+      is sent.</li>
+</ul>
+
+<h2>Security</h2>
+<p>What you type never leaves your device, so it is protected by the device's own security.
+We recommend using a screen lock and keeping your operating system up to date. Data sent by
+the third-party services to their servers travels over a secure connection (HTTPS).</p>
+<p>A note on Wi-Fi and business cards: the password and contact details you enter are turned
+into a QR code on the device itself. Keep in mind, though, that the resulting code <em>is</em>
+your password in plain sight — anyone who points a camera at it gets access to the network.
+Treat a printed code as carefully as a note with the password written on it.</p>
+
+<h2>Retention and your rights</h2>
+<p>Retention periods on Yandex's side are governed by its policy. You may request information
+about data associated with your installation, or its deletion, by writing to
+<a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a>. As the App has no accounts, the
+install identifier is needed to locate records; we will explain where to find it. We respond
+within 30 days.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the data collected changes, we will update this page and the effective date above.
+Material changes will be noted in the store release notes.</p>
+
+<footer>
+  Qro · com.dolgitem.qrcodeapp · <a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a>
+</footer>
+
+</main>
+</body>
+</html>

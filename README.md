@@ -7,6 +7,7 @@
 |---|---|---|
 | Литерио / Literio | `com.dolgitem.literio` | [privacy](https://dolgitem.github.io/legal/literio/privacy/) |
 | Confuel | `com.dolgitem.confuel` | [privacy](https://dolgitem.github.io/legal/confuel/privacy/) |
+| Qro | `com.dolgitem.qrcodeapp` | [privacy](https://dolgitem.github.io/legal/qro/privacy/) |
 
 Новое приложение — новая папка `<app>/privacy/index.html` и строка в таблице.
 Настраивать Pages заново не нужно.
