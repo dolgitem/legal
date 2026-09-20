@@ -6,6 +6,7 @@
 | Приложение | Package | Страница |
 |---|---|---|
 | Литерио / Literio | `com.dolgitem.literio` | [privacy](https://dolgitem.github.io/legal/literio/privacy/) |
+| Баю / Bayu | `com.dolgitem.bayou` | [privacy](https://dolgitem.github.io/legal/bayu/privacy/) |
 | Confuel | `com.dolgitem.confuel` | [privacy](https://dolgitem.github.io/legal/confuel/privacy/) |
 | Qro | `com.dolgitem.qrcodeapp` | [privacy](https://dolgitem.github.io/legal/qro/privacy/) |
 
