@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Ozon: статистика трат</title>
+<meta name="description" content="Политика конфиденциальности расширения Chrome «Ozon: статистика трат». Privacy Policy for the “Ozon: spending stats” Chrome extension.">
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1f2933; --muted: #5c6773; --rule: #e4e7eb;
+    --accent: #2f9e8f; --card: #eef4f2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17191a; --fg: #e8ecec; --muted: #9aa3a6; --rule: #2e3234;
+            --accent: #6cc8b8; --card: #1f2325; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 5rem; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.65rem; line-height: 1.25; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; letter-spacing: -.005em; }
+  h3 { font-size: 1rem; margin: 1.6rem 0 .4rem; }
+  p, li { color: var(--fg); }
+  .lede { color: var(--muted); margin: 0 0 1.5rem; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  ul { padding-left: 1.15rem; }
+  li { margin: .3rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .93rem; }
+  th, td { text-align: left; vertical-align: top; padding: .55rem .6rem; border-bottom: 1px solid var(--rule); }
+  th { color: var(--muted); font-weight: 600; }
+  .meta { background: var(--card); border-radius: 10px; padding: .9rem 1.1rem; margin: 1.5rem 0; font-size: .93rem; }
+  .meta div { margin: .2rem 0; }
+  .switch { font-size: .93rem; color: var(--muted); margin-bottom: 2rem; }
+  code { background: var(--card); padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Политика конфиденциальности</h1>
+<p class="lede">Расширение для Chrome «Ozon: статистика трат» (<code>ofgdpjgolfjekcjgijhpoeepapmpjgoj</code>)</p>
+<p class="switch"><a href="#en">Read this page in English ↓</a></p>
+
+<div class="meta">
+  <div><strong>Дата вступления в силу:</strong> 26 октября 2026 года</div>
+  <div><strong>Связь с разработчиком:</strong> <a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a></div>
+</div>
+
+<p>Расширение «Ozon: статистика трат» (далее — «Расширение») показывает <strong>вам</strong>
+аналитику ваших собственных трат на Ozon. Ниже — что происходит с данными.</p>
+
+<h2>Коротко</h2>
+<p><strong>История заказов остаётся в вашем браузере</strong> и никуда не передаётся — ни нам,
+ни кому-либо ещё. Наружу уходит только обезличенная статистика использования через
+Яндекс.Метрику, и её можно выключить одной галочкой.</p>
+
+<h2>Данные о заказах</h2>
+<p>Расширение считывает историю заказов из архива вашего аккаунта Ozon — только когда вы сами
+запустили сбор и открыта вкладка ozon.ru, где вы авторизованы.</p>
+<ul>
+  <li>Даты заказов, суммы и число товаров хранятся <strong>локально</strong> в браузере
+    (<code>chrome.storage.local</code>) на вашем компьютере.</li>
+  <li>Мы <strong>не передаём</strong> историю заказов, суммы, названия товаров или ваш
+    идентификатор Ozon на свои серверы или третьим лицам. Своих серверов у Расширения нет.</li>
+  <li>Удаление Расширения удаляет эти данные.</li>
+</ul>
+
+<h2>Анонимная статистика использования (Яндекс.Метрика)</h2>
+<p>Чтобы понимать, доходит ли сбор до конца, не сломалось ли что-то после изменений на Ozon и
+возвращаются ли пользователи, Расширение отправляет <strong>обезличенную</strong> статистику в
+сервис Яндекс.Метрика.</p>
+<h3>Что отправляется</h3>
+<ul>
+  <li>Факты событий: установка и обновление, открытие окна Расширения, начало, завершение и ошибки
+    сбора, длительность сессии, открытие страницы приветствия, нажатия «Оценить», «Написать, чего
+    не хватает», «Поделиться», «Скопировать» и «Скачать» карточку.</li>
+  <li>Огрублённые показатели «в корзинах» — например, «11–50 заказов» или «сессия 30–120 секунд».
+    Точные числа не передаются.</li>
+  <li>Номер версии Расширения и случайный идентификатор установки (UUID), не связанный с вашей
+    личностью, аккаунтом Ozon или содержимым заказов.</li>
+  <li>Технические данные, которые Яндекс.Метрика собирает автоматически: тип браузера, язык,
+    регион по IP-адресу.</li>
+</ul>
+<h3>Что не отправляется никогда</h3>
+<ul>
+  <li>Названия товаров, точные суммы, даты конкретных покупок.</li>
+  <li>Идентификатор аккаунта Ozon, имя, телефон, адрес, почта.</li>
+  <li>Любые данные, по которым можно восстановить, что именно вы покупали.</li>
+</ul>
+<p>Статистику обрабатывает ООО «Яндекс» по своей политике:
+<a href="https://yandex.ru/legal/confidential/">yandex.ru/legal/confidential</a>.</p>
+
+<h2>Как выключить статистику</h2>
+<p>Окно Расширения → значок «?» → снять галочку «Помогать улучшать расширение». После этого
+статистика не отправляется. На подсчёт трат это не влияет.</p>
+
+<h2>Разрешения</h2>
+<table>
+  <tr><th>Разрешение</th><th>Зачем</th></tr>
+  <tr><td>Доступ к ozon.ru</td><td>Считывать историю ваших заказов из архива.</td></tr>
+  <tr><td>storage</td><td>Хранить собранную статистику локально.</td></tr>
+  <tr><td>tabs, scripting</td><td>Выполнять запросы к Ozon в вашей же вкладке, не пересылая учётные
+    данные куда-либо, и открывать страницу приветствия после установки.</td></tr>
+</table>
+<p>Карточка «Поделиться» собирается прямо в браузере и копируется или сохраняется только по вашему
+нажатию. Расширение обращается только к <code>ozon.ru</code> и к <code>mc.yandex.ru</code>
+(статистика).</p>
+
+<h2>Передача третьим лицам</h2>
+<p>Мы не продаём и не передаём ваши данные третьим лицам, кроме обезличенной статистики в
+Яндекс.Метрике, описанной выше. Данные не используются для рекламы и оценки кредитоспособности.</p>
+
+<h2>Изменения политики</h2>
+<p>Если политика изменится, новая версия появится на этой странице с новой датой вступления в силу.</p>
+
+<hr>
+
+<h1 id="en">Privacy Policy</h1>
+<p class="lede">Chrome extension “Ozon: spending stats” (<code>ofgdpjgolfjekcjgijhpoeepapmpjgoj</code>)</p>
+
+<div class="meta">
+  <div><strong>Effective date:</strong> October 26, 2026</div>
+  <div><strong>Contact:</strong> <a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a></div>
+</div>
+
+<h2>In short</h2>
+<p><strong>Your order history stays in your browser</strong> and is never sent to us or anyone
+else. The only thing that leaves the browser is anonymous usage statistics via Yandex Metrica,
+which you can turn off with one checkbox.</p>
+
+<h2>Order data</h2>
+<p>The extension reads your order history from your Ozon account archive only when you start a sync
+yourself while signed in on an ozon.ru tab. Order dates, totals and item counts are stored locally
+in <code>chrome.storage.local</code>. We do not transmit order history, amounts, product names or
+your Ozon ID to our servers or any third party; the extension has no servers of its own.
+Uninstalling the extension deletes this data.</p>
+
+<h2>Anonymous usage statistics (Yandex Metrica)</h2>
+<ul>
+  <li>Event facts: install and update, popup opened, sync started / finished / failed, session
+    length, welcome page opened, clicks on “Rate”, “Feedback”, “Share”, “Copy” and “Download”.</li>
+  <li>Bucketed values only, such as “11–50 orders” or “30–120 s”. No exact numbers.</li>
+  <li>Extension version and a random installation ID (UUID) not linked to your identity, Ozon
+    account or orders.</li>
+  <li>Technical data Yandex Metrica collects automatically: browser type, language, region by IP.</li>
+</ul>
+<p>Never sent: product names, exact amounts, purchase dates, Ozon account ID, name, phone, address,
+email. Processing by Yandex is governed by
+<a href="https://yandex.com/legal/confidential/">its privacy policy</a>.</p>
+
+<h2>Opting out</h2>
+<p>Open the extension → “?” → uncheck “Help improve the extension”. Statistics stop immediately;
+spending analytics keep working.</p>
+
+<h2>Permissions</h2>
+<p>Access to ozon.ru — to read your order archive. <code>storage</code> — to keep results locally.
+<code>tabs</code>, <code>scripting</code> — to run requests to Ozon inside your own tab without
+forwarding credentials, and to open the welcome page after install. The extension contacts only
+<code>ozon.ru</code> and <code>mc.yandex.ru</code>.</p>
+
+<h2>Sharing</h2>
+<p>We do not sell or transfer your data to third parties, except anonymous statistics processed by
+Yandex Metrica as described above. Data is not used for advertising or creditworthiness.</p>
+
+<h2>Changes</h2>
+<p>Updates will be posted on this page with a new effective date.</p>
+
+<footer>© 2026 Ozon: статистика трат — <a href="mailto:dolgitem@gmail.com">dolgitem@gmail.com</a>.
+Расширение не связано с компанией Ozon. Not affiliated with Ozon.</footer>
+
+</main>
+</body>
+</html>

@@ -9,6 +9,7 @@
 | Баю / Bayu | `com.dolgitem.bayou` | [privacy](https://dolgitem.github.io/legal/bayu/privacy/) |
 | Confuel | `com.dolgitem.confuel` | [privacy](https://dolgitem.github.io/legal/confuel/privacy/) |
 | Qro | `com.dolgitem.qrcodeapp` | [privacy](https://dolgitem.github.io/legal/qro/privacy/) |
+| Ozon: статистика трат (Chrome) | `ofgdpjgolfjekcjgijhpoeepapmpjgoj` | [privacy](https://dolgitem.github.io/legal/ozon-stats/privacy/) |
 
 Новое приложение — новая папка `<app>/privacy/index.html` и строка в таблице.
 Настраивать Pages заново не нужно.
